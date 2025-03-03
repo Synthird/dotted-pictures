@@ -1,2 +1,7 @@
 # Dotted-pictures
-Using dots to create pictures via textbox
+
+Using dots to create pictures via textbox.
+
+# License
+
+This repository contains the MIT license. You must give credit if you are going to use its source code.
