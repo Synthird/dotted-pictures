@@ -30,6 +30,12 @@ div {
 	margin: 0 1em 0;
 }
 
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
 /* Solution to the "no new line" bug : https://stackoverflow.com/questions/9980416/how-can-i-insert-new-line-carriage-returns-into-an-element-textcontent */
 .canvas {
 	white-space: pre;
