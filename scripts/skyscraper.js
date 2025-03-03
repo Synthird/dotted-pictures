@@ -5,8 +5,8 @@ const rodsBox = document.getElementById("rods-box");
 
 const skyscraper = document.getElementById("skyscraper");
 
-const rodTemplate = "\n.";
-const floorTemplate = "\n.......";
+const rodTemplate = ".\n";
+const floorTemplate = ".......\n";
 
 function drawSkyscraper() {
 	skyscraper.textContent = "";
