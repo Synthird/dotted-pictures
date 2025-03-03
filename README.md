@@ -1,6 +1,6 @@
 # Dotted pictures
 
-Using dots to create pictures via textbox.
+Using dots to create pictures.
 
 # License
 
