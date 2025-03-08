@@ -25,11 +25,6 @@ li {
 	display: inline;
 }
 
-div {
-	display: inline-block;
-	margin: 0 1em 0;
-}
-
 footer {
 	position: fixed;
 	bottom: 0;

@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/print.css">
 	<title>Dotted skyscraper</title>
 </head>
 
@@ -22,13 +23,21 @@
 	</header>
 
 	<main>
-		<input min="0" placeholder="Floors" type="number" id="floors-box">
-		<input min="0" placeholder="Dots for the rod" type="number" id="rods-box">
-		<p><button id="create-skyscraper">Create skyscraper</button></p>
-		<code class="canvas" id="skyscraper"></code>
+		<div class="control-panel">
+			<input min="0" placeholder="Floors" type="number" id="floors-box">
+			<input min="0" placeholder="Dots for the rod" type="number" id="rods-box">
+			<p>
+				<button id="create-skyscraper">Create skyscraper</button>
+				<button id="print-button">Print skyscraper</button>
+			</p>
+		</div>
+		<div>
+			<code class="canvas" id="skyscraper"></code>
+		</div>
 	</main>
 
 	<script src="../scripts/skyscraper.js"></script>
+	<script src="../scripts/print-dotted-picture.js"></script>
 </body>
 
 </html>
