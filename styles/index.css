@@ -2,3 +2,9 @@ div {
 	display: inline-block;
 	margin: 0 1em 0;
 }
+
+@media screen and (orientation: portrait) {
+	.source-code-link {
+		display: none;
+	}
+}
