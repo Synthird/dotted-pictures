@@ -8,15 +8,19 @@ const skyscraper = document.getElementById("skyscraper");
 const rodTemplate = ".\n";
 const floorTemplate = ".......\n";
 
+function addToSkyscraper(template) {
+	skyscraper.textContent = `${skyscraper.textContent}${template}`;
+}
+
 function drawSkyscraper() {
 	skyscraper.textContent = "";
 
 	for (let i = 0; i < rodsBox.value; i++) {
-		skyscraper.textContent += rodTemplate;
+		addToSkyscraper(rodTemplate);
 	}
 
 	for (let i = 0; i < floorsBox.value; i++) {
-		skyscraper.textContent += floorTemplate;
+		addToSkyscraper(floorTemplate);
 	}
 }
 

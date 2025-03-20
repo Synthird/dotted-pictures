@@ -16,7 +16,7 @@ function drawRectangle() {
 	}
 
 	for (let i = 0; i < heightBox.value; i++) {
-		rectangle.textContent += `${width}\n`;
+		rectangle.textContent = `${rectangle.textContent}${width}\n`;
 	}
 
 	width = "";
