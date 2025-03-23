@@ -5,10 +5,7 @@ div {
 
 footer {
 	background-color: white;
-}
-
-@media screen and (orientation: portrait) {
-	.source-code-link {
-		display: none;
-	}
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
