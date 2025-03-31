@@ -1,0 +1,10 @@
+/* Solution to the "no new line" bug : https://stackoverflow.com/questions/9980416/how-can-i-insert-new-line-carriage-returns-into-an-element-textcontent */
+code {
+	white-space: pre;
+}
+
+@media print {
+	header, .control-panel {
+		display: none;
+	}
+}

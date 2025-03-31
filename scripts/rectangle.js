@@ -3,7 +3,7 @@ const createRectangle = document.getElementById("create-rectangle");
 const widthBox = document.getElementById("width-box");
 const heightBox = document.getElementById("height-box");
 
-const rectangle = document.getElementById("rectangle");
+const rectangle = document.querySelector("code");
 
 let width = "";
 let height = "";

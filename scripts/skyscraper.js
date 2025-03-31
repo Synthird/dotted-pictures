@@ -3,7 +3,7 @@ const createSkyscraper = document.getElementById("create-skyscraper");
 const floorsBox = document.getElementById("floors-box");
 const rodsBox = document.getElementById("rods-box");
 
-const skyscraper = document.getElementById("skyscraper");
+const skyscraper = document.querySelector("code");
 
 const rodTemplate = ".\n";
 const floorTemplate = ".......\n";
