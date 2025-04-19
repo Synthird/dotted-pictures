@@ -4,7 +4,7 @@ div {
 }
 
 footer {
-	background-color: white;
+	background-color: canvas;
 	position: fixed;
 	bottom: 0;
 	width: 100%;

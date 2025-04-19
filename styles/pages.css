@@ -4,6 +4,10 @@ code {
 }
 
 @media print {
+	:root {
+		color-scheme: light;
+	}
+
 	header, .control-panel {
 		display: none;
 	}
