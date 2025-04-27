@@ -1,5 +1,3 @@
-const printButton = document.getElementById("print-button");
-
-printButton.addEventListener("click", () => {
+document.getElementById("print-button").addEventListener("click", () => {
 	window.print();
 });
