@@ -1,3 +1,8 @@
+.control-panel {
+	position: sticky;
+	top: 0.1em;
+}
+
 /* Solution to the "no new line" bug : https://stackoverflow.com/questions/9980416/how-can-i-insert-new-line-carriage-returns-into-an-element-textcontent */
 code {
 	white-space: pre;
