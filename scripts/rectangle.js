@@ -4,7 +4,6 @@ const heightBox = document.getElementById("height-box");
 const rectangle = document.querySelector("code");
 
 let width = "";
-let height = "";
 
 function drawRectangle() {
 	rectangle.textContent = "";
@@ -18,7 +17,6 @@ function drawRectangle() {
 	}
 
 	width = "";
-	height = "";
 }
 
 function drawOnEnterPressed(event) {
