@@ -1,5 +1,3 @@
-const createSkyscraper = document.getElementById("create-skyscraper");
-
 const floorsBox = document.getElementById("floors-box");
 const rodsBox = document.getElementById("rods-box");
 
@@ -32,6 +30,6 @@ function drawOnEnterPressed(event) {
 	}
 }
 
-createSkyscraper.addEventListener("click", drawSkyscraper);
+document.getElementById("create-skyscraper").addEventListener("click", drawSkyscraper);
 floorsBox.addEventListener("keyup", drawOnEnterPressed);
 rodsBox.addEventListener("keyup", drawOnEnterPressed);

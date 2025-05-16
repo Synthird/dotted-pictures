@@ -1,5 +1,3 @@
-const createRectangle = document.getElementById("create-rectangle");
-
 const widthBox = document.getElementById("width-box");
 const heightBox = document.getElementById("height-box");
 
@@ -31,6 +29,6 @@ function drawOnEnterPressed(event) {
 	}
 }
 
-createRectangle.addEventListener("click", drawRectangle);
+document.getElementById("create-rectangle").addEventListener("click", drawRectangle);
 widthBox.addEventListener("keyup", drawOnEnterPressed);
 heightBox.addEventListener("keyup", drawOnEnterPressed);
