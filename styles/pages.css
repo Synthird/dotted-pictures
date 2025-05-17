@@ -1,6 +1,18 @@
 .control-panel {
 	position: sticky;
-	top: 0.1em;
+	top: 0;
+}
+
+.control-panel {
+	background-color: canvas;
+}
+
+.control-panel div:has(label) {
+	display: inline-block;
+}
+
+label {
+	display: block;
 }
 
 /* Solution to the "no new line" bug : https://stackoverflow.com/questions/9980416/how-can-i-insert-new-line-carriage-returns-into-an-element-textcontent */

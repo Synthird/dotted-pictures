@@ -23,8 +23,16 @@
 
 	<main>
 		<div class="control-panel">
-			<input min="0" placeholder="Floors" type="number" id="floors-box">
-			<input min="0" placeholder="Dots for the rod" type="number" id="rods-box">
+			<div>
+				<label for="floors-box">Floors</label>
+				<input min="0" placeholder="0" type="number" id="floors-box">
+			</div>
+
+			<div>
+				<label for="rods-box">Dots for the rod</label>
+				<input min="0" placeholder="0" type="number" id="rods-box">
+			</div>
+
 			<div>
 				<button id="create-skyscraper">Create skyscraper</button>
 				<button id="print-button">Print skyscraper</button>

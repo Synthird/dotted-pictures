@@ -23,8 +23,16 @@
 
 	<main>
 		<div class="control-panel">
-			<input min="0" placeholder="Width" type="number" id="width-box">
-			<input min="0" placeholder="Height" type="number" id="height-box">
+			<div>
+				<label for="width-box">Width</label>
+				<input min="0" placeholder="0" type="number" id="width-box">
+			</div>
+
+			<div>
+				<label for="height-box">Height</label>
+				<input min="0" placeholder="0" type="number" id="height-box">
+			</div>
+
 			<div>
 				<button id="create-rectangle">Create rectangle/square</button>
 				<button id="print-button">Print rectangle/square</button>
