@@ -1,10 +1,9 @@
-const floorsBox = document.getElementById("floors-box");
-const rodsBox = document.getElementById("rods-box");
+const skyscraper = document.querySelector("code"),
+	floorsBox = document.getElementById("floors-box"),
+	rodsBox = document.getElementById("rods-box"),
 
-const skyscraper = document.querySelector("code");
-
-const rodTemplate = ".\n";
-const floorTemplate = ".......\n";
+	rodTemplate = ".\n",
+	floorTemplate = ".......\n";
 
 function addToSkyscraper(template) {
 	skyscraper.textContent = `${skyscraper.textContent}${template}`;

@@ -1,7 +1,6 @@
-const widthBox = document.getElementById("width-box");
-const heightBox = document.getElementById("height-box");
-
-const rectangle = document.querySelector("code");
+const rectangle = document.querySelector("code"),
+	widthBox = document.getElementById("width-box"),
+	heightBox = document.getElementById("height-box");
 
 let width = "";
 
