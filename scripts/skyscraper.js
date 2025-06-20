@@ -1,6 +1,7 @@
 const skyscraper = document.querySelector("code"),
 	floorsBox = document.getElementById("floors-box"),
 	rodsBox = document.getElementById("rods-box"),
+	controls = document.querySelector(".control-panel"),
 
 	rodTemplate = ".\n",
 	floorTemplate = ".......\n";
@@ -21,14 +22,12 @@ function drawSkyscraper() {
 	}
 }
 
-function drawOnEnterPress(event) {
+controls.addEventListener("keyup", event => {
 	switch (event.key) {
 		case "Enter":
 			drawSkyscraper();
 			break;
 	}
-}
+});
 
 document.getElementById("create-skyscraper").addEventListener("click", drawSkyscraper);
-floorsBox.addEventListener("keyup", drawOnEnterPress);
-rodsBox.addEventListener("keyup", drawOnEnterPress);

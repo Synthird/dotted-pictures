@@ -1,6 +1,7 @@
 const rectangle = document.querySelector("code"),
 	widthBox = document.getElementById("width-box"),
-	heightBox = document.getElementById("height-box");
+	heightBox = document.getElementById("height-box"),
+	controls = document.querySelector(".control-panel");
 
 let width = "";
 
@@ -18,14 +19,12 @@ function drawRectangle() {
 	width = "";
 }
 
-function drawOnEnterPress(event) {
+controls.addEventListener("keyup", event => {
 	switch (event.key) {
 		case "Enter":
 			drawRectangle();
 			break;
 	}
-}
+});
 
 document.getElementById("create-rectangle").addEventListener("click", drawRectangle);
-widthBox.addEventListener("keyup", drawOnEnterPress);
-heightBox.addEventListener("keyup", drawOnEnterPress);
