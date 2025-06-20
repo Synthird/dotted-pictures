@@ -21,7 +21,7 @@ function drawSkyscraper() {
 	}
 }
 
-function drawOnEnterPressed(event) {
+function drawOnEnterPress(event) {
 	switch (event.key) {
 		case "Enter":
 			drawSkyscraper();
@@ -30,5 +30,5 @@ function drawOnEnterPressed(event) {
 }
 
 document.getElementById("create-skyscraper").addEventListener("click", drawSkyscraper);
-floorsBox.addEventListener("keyup", drawOnEnterPressed);
-rodsBox.addEventListener("keyup", drawOnEnterPressed);
+floorsBox.addEventListener("keyup", drawOnEnterPress);
+rodsBox.addEventListener("keyup", drawOnEnterPress);

@@ -18,7 +18,7 @@ function drawRectangle() {
 	width = "";
 }
 
-function drawOnEnterPressed(event) {
+function drawOnEnterPress(event) {
 	switch (event.key) {
 		case "Enter":
 			drawRectangle();
@@ -27,5 +27,5 @@ function drawOnEnterPressed(event) {
 }
 
 document.getElementById("create-rectangle").addEventListener("click", drawRectangle);
-widthBox.addEventListener("keyup", drawOnEnterPressed);
-heightBox.addEventListener("keyup", drawOnEnterPressed);
+widthBox.addEventListener("keyup", drawOnEnterPress);
+heightBox.addEventListener("keyup", drawOnEnterPress);
