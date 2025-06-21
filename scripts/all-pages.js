@@ -6,6 +6,9 @@ export function drawOnEventTrigger(drawFunc) {
 			case "draw":
 				drawFunc();
 				break;
+			case "print":
+				window.print();
+				break;
 		}
 	});
 
@@ -17,7 +20,3 @@ export function drawOnEventTrigger(drawFunc) {
 		}
 	});
 }
-
-document.getElementById("print").addEventListener("click", () => {
-	window.print();
-});
