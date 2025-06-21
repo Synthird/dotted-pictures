@@ -18,6 +18,6 @@ export function drawOnEventTrigger(drawFunc) {
 	});
 }
 
-document.getElementById("print-button").addEventListener("click", () => {
+document.getElementById("print").addEventListener("click", () => {
 	window.print();
 });
