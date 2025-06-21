@@ -1,11 +1,12 @@
+import { drawOnEventTrigger } from "./all-pages.js";
+
 const rectangle = document.querySelector("code"),
 	widthBox = document.getElementById("width-box"),
-	heightBox = document.getElementById("height-box"),
-	controls = document.querySelector(".control-panel");
+	heightBox = document.getElementById("height-box");
 
 let width = "";
 
-function drawRectangle() {
+drawOnEventTrigger(() => {
 	rectangle.textContent = "";
 
 	for (let i = 0; i < widthBox.value; i++) {
@@ -17,14 +18,4 @@ function drawRectangle() {
 	}
 
 	width = "";
-}
-
-controls.addEventListener("keyup", event => {
-	switch (event.key) {
-		case "Enter":
-			drawRectangle();
-			break;
-	}
 });
-
-document.getElementById("create-rectangle").addEventListener("click", drawRectangle);
