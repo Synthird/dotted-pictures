@@ -1,4 +1,4 @@
-const controls = document.querySelector(".control-panel");
+const controls = document.querySelector(".controls");
 
 export function drawOnEventTrigger(draw) {
 	controls.addEventListener("click", event => {

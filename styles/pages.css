@@ -12,16 +12,13 @@ li {
 	display: inline;
 }
 
-.control-panel {
+.controls {
+	background-color: canvas;
 	position: sticky;
 	top: 0;
 }
 
-.control-panel {
-	background-color: canvas;
-}
-
-.control-panel div:has(label) {
+.controls div:has(label) {
 	display: inline-block;
 }
 
