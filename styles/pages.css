@@ -13,7 +13,6 @@ li {
 }
 
 .controls {
-	background-color: canvas;
 	position: sticky;
 	top: 0;
 }
@@ -36,7 +35,7 @@ code {
 		color-scheme: light;
 	}
 
-	header, .control-panel {
+	header, .controls {
 		display: none;
 	}
 }
