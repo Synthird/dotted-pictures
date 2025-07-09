@@ -2,13 +2,9 @@
 	color-scheme: dark;
 }
 
-/* Modifying multiple elements */
-
 button, input {
 	font-size: large;
 }
-
-/* Modifying individual elements */
 
 body {
 	text-align: center;
