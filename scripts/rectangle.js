@@ -9,7 +9,7 @@ let width = "";
 drawOnEventTrigger(() => {
 	rectangle.textContent = "";
 
-	for (let i = 0; i < widthBox.value; i++) {
+	for (; width.length < widthBox.value;) {
 		width = `${width}.`;
 	}
 
