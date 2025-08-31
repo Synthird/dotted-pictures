@@ -4,11 +4,11 @@ const skyscraper = document.querySelector("code"),
 	floorsBox = document.getElementById("floors-box"),
 	rodsBox = document.getElementById("rods-box"),
 
-	rodTemplate = ".\n",
-	floorTemplate = ".......\n";
+	rodTemplate = ".",
+	floorTemplate = ".......";
 
 function addToSkyscraper(template) {
-	skyscraper.textContent = `${skyscraper.textContent}${template}`;
+	skyscraper.textContent = `${skyscraper.textContent}${template}\n`;
 }
 
 drawOnEventTrigger(() => {
