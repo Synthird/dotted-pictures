@@ -17,7 +17,7 @@ li {
 }
 
 .controls {
-	background-color: canvas;
+	background-color: var(--background-colour);
 	position: sticky;
 	top: 0;
 }
