@@ -1,4 +1,4 @@
-div {
+div:has(h2) {
 	display: inline-block;
 	margin: 0 1em 0;
 }
