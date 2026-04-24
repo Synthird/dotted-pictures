@@ -1,11 +1,4 @@
-div {
+div:has(h2) {
 	display: inline-block;
 	margin: 0 1em 0;
-}
-
-footer {
-	background-color: var(--background-colour);
-	position: fixed;
-	bottom: 0;
-	width: 100%;
 }
