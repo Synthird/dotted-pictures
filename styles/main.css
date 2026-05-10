@@ -13,3 +13,11 @@ body {
 	font-size: x-large;
 	overflow-x: hidden;
 }
+
+a {
+	color: rgb(123, 174, 229);
+}
+
+a:active {
+	color: rgb(219, 95, 115);
+}
