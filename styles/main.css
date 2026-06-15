@@ -1,9 +1,9 @@
 :root {
 	--background-colour: rgb(14, 14, 14);
-	color-scheme: dark;
 }
 
 button, input {
+	color-scheme: dark;
 	font-size: large;
 }
 
