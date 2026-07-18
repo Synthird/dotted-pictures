@@ -22,3 +22,7 @@ a {
 a:active {
 	color: rgb(219, 95, 115);
 }
+
+input {
+	width: 11.5em;
+}
