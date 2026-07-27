@@ -1,6 +1,6 @@
 # Dotted pictures
 
-Using dots to create pictures.
+Use dots to create pictures.
 
 # License
 
