@@ -20,8 +20,11 @@ a {
 	color: rgb(129, 181, 238);
 }
 
-a:active {
+a:hover {
 	color: var(--red-link-colour);
+}
+
+a:active {
 	border: 2px dotted var(--red-link-colour);
 }
 
