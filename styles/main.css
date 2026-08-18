@@ -1,6 +1,5 @@
 :root {
 	--background-colour: rgb(14, 14, 14);
-	--red-link-colour: rgb(219, 95, 115);
 }
 
 button, input {
@@ -21,11 +20,11 @@ a {
 }
 
 a:hover {
-	color: var(--red-link-colour);
+	color: rgb(219, 95, 115);
 }
 
 a:active {
-	border: 2px dotted var(--red-link-colour);
+	border: 2px dotted;
 }
 
 input {
